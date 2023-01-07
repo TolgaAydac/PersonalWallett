@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:accessibilityLiveRegion="none"
+    android:background="@drawable/arka2"
+    android:clickable="true"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+
+        android:id="@+id/ad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="510dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/custom_inout2"
+        android:drawableStart="@drawable/kullanici"
+        android:drawablePadding="5dp"
+        android:inputType="textAutoComplete"
+        android:hint="Kullanıcı Adınızı Giriniz..."
+        android:padding="15dp"
+        android:textColor="@color/hint"
+        android:textColorHint="@color/hint" />
+
+    <EditText
+        android:id="@+id/tc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/custom_inout2"
+        android:drawableStart="@drawable/tc"
+        android:drawablePadding="5dp"
+        android:hint="TC Giriniz..."
+        android:inputType="number|textAutoComplete"
+        android:padding="15dp"
+        android:textColor="@color/hint"
+        android:textColorHint="@color/hint" />
+
+
+    <EditText
+
+        android:id="@+id/şifre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/custom_inout2"
+        android:drawableStart="@drawable/password"
+        android:drawablePadding="5dp"
+        android:hint="Şifre Giriniz..."
+        android:padding="15dp"
+        android:inputType="textPassword"
+        android:textColor="@color/hint"
+        android:textColorHint="@color/hint" />
+
+
+
+    <TextView
+        android:id="@+id/hesap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:clickable="true"
+        android:onClick="onClick"
+        android:padding="5dp"
+        android:text="HESAP OLUŞTUR!"
+        android:textColor="@color/white"
+        android:textSize="17dp" />
+
+    <Button
+
+        android:id="@+id/giris"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/custom__button"
+        android:clickable="true"
+        android:onClick="login"
+        android:text="Giriş Yapınız"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/olustur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="70dp"
+        android:gravity="center"
+        android:textColor="@color/blue"
+        android:textSize="20dp" />
+
+
+</LinearLayout>

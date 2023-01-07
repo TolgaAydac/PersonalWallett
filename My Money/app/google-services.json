@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "309062616159",
+    "firebase_url": "https://mymoneykullanicibilgi-default-rtdb.firebaseio.com",
+    "project_id": "mymoneykullanicibilgi",
+    "storage_bucket": "mymoneykullanicibilgi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:309062616159:android:7861819e610af3383387ea",
+        "android_client_info": {
+          "package_name": "com.example.mymoney"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "309062616159-vpctjkoqjprr8dfpg6pfprkfdum8jvn7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLO8bmq8yLRfUnuohefITE45ecRH8ejMA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "309062616159-vpctjkoqjprr8dfpg6pfprkfdum8jvn7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

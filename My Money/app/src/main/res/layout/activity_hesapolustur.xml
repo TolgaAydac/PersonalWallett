@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".hesapolustur"
+    android:orientation="vertical"
+    android:background="@color/black"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lütfen Bilgileri Doldurunuz!"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="30dp"
+        android:textSize="29dp"
+        android:textColor="@color/hint"/>
+
+
+
+    <EditText
+        android:id="@+id/ad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/custom_input"
+        android:drawableStart="@drawable/neww"
+        android:drawablePadding="5dp"
+        android:hint="Adınızı Giriniz..."
+        android:padding="15dp"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/hint"
+        android:textColorHint="@color/hint"
+        android:inputType="textAutoComplete"/>
+
+    <EditText
+        android:drawableStart="@drawable/neww"
+        android:id="@+id/soyad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/custom_input"
+        android:drawablePadding="5dp"
+        android:hint="Soyadınızı Giriniz..."
+        android:padding="15dp"
+        android:backgroundTint="@color/black"
+        android:inputType="textAutoComplete"
+        android:textColor="@color/hint"
+        android:textColorHint="@color/hint"
+        />
+    <EditText
+        android:drawableStart="@drawable/neww"
+
+        android:id="@+id/adres"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/custom_input"
+        android:drawablePadding="5dp"
+        android:hint="Adres Giriniz"
+        android:padding="15dp"
+        android:inputType="textAutoComplete"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/hint"
+        android:textColorHint="@color/hint" />
+
+    <EditText
+        android:drawableStart="@drawable/neww"
+        android:id="@+id/tel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/custom_input"
+        android:drawablePadding="5dp"
+        android:backgroundTint="@color/black"
+        android:hint="Telefon No Giriniz..."
+        android:padding="15dp"
+        android:inputType="textAutoComplete|phone"
+        android:textColor="@color/hint"
+        android:textColorHint="@color/hint" />
+
+    <EditText
+        android:drawableStart="@drawable/neww"
+        android:id="@+id/tc"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="30dp"
+    android:layout_marginTop="20dp"
+    android:layout_marginRight="30dp"
+    android:background="@drawable/custom_input"
+    android:drawablePadding="5dp"
+    android:hint="TC Giriniz..."
+    android:padding="15dp"
+        android:backgroundTint="@color/black"
+        android:inputType="textAutoComplete|phone"
+    android:textColor="@color/hint"
+    android:textColorHint="@color/hint" />
+
+    <EditText
+        android:drawableStart="@drawable/neww"
+        android:id="@+id/şifre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/custom_input"
+        android:drawablePadding="5dp"
+        android:hint="Şifre Belirleyiniz..."
+        android:padding="15dp"
+        android:backgroundTint="@color/black"
+        android:inputType="textAutoComplete|phone"
+        android:textColor="@color/hint"
+        android:textColorHint="@color/hint" />
+
+
+    <Button
+        android:onClick="create"
+        android:id="@+id/kaydet"
+        android:layout_width="280dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/custom_button2"
+        android:text="Kaydet"
+        android:textColor="@color/white"
+        android:clickable="true" />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:background="@drawable/ss"/>
+
+
+</LinearLayout>
